@@ -1,0 +1,182 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>Photography</title>
+<meta name="keywords" content=""  />
+<meta name="description" content=""/>
+<link rel="icon" type="image/ico" href="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fontawesome.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+ <!-- HEADER --> 
+<div id="home" class="header-banner pages-header-banner">
+    <div class="bc-overlay"></div>
+
+  <div class="container">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light nav-menu padd-35">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Feature</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#overview">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#support">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#photo">Photo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">Faq</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+<div class="banner-body pages-banner-body">
+      <div class="text-center">
+        <h2>About Vatia</h2>
+        <a href="">Home</a><i class="fas fa-chevron-right"></i><a href="">Terms And Conditions</a>
+      </div>
+  </div>
+</div>
+</div>
+
+
+<div class="about">
+  <div class="container">
+    <div class="about-body">
+      <div class="pages-about-photo text-center">
+        <h2 class="">About Vatia</h2>
+      </div>
+      <h6>Lorem, ipsum, dolor sit amet consectetur adipisicing elit.</h6>
+      <p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Sequi, sint saepe laborum illum impedit modi magnam adipisci consectetur omnis aperiam quis unde provident rerum possimus ea voluptates eos vel quod. Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Sequi, sint saepe laborum illum impedit modi magnam adipisci consectetur omnis aperiam quis unde provident rerum possimus ea voluptates eos vel quod.</p>
+      <h6>Easy Appointment Booking:</h6>
+      <p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Sequi, sint saepe laborum illum impedit modi magnam adipisci consectetur omnis aperiam quis unde provident rerum possimus ea voluptates eos vel quod.</p>
+      <p>* Lorem, ipsum, dolor sit amet consectetur</p>
+      <p>* Lorem, ipsum, dolor sit amet consectetur</p>
+      <p>* Lorem, ipsum, dolor sit amet consectetur</p>
+      <p>* Lorem, ipsum, dolor sit amet consectetur</p>
+      <p>* Lorem, ipsum, dolor sit amet consectetur</p>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer text-center padd-35">
+    <div class="container">
+          <ul class="footer-nav-link">
+            <li><a href="about.html">ABOUT Photography</a></li>
+            <li><a href="termscondition.html">TERMS OF SERVICE</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        <ul class="footer-social">
+            <li><a href="https://www.facebook.com/KeChi.in/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/KeChi_App"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/kechi.in/?hl=en"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>                              
+        </ul>
+        <div class="copyright">
+          2020 Copyright <strong>Photography</strong>. ALL RIGHTS RESERVED
+        </div>     
+    </div>
+  </footer>
+
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    // Notice how this gets configured before we load Font Awesome
+    window.FontAwesomeConfig = { autoReplaceSvg: false }
+    </script>
+<script src="js/fontawesome.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() >= 50) {
+        $('.nav-menu').addClass('fixed-top');
+    } else {
+        $('.nav-menu').removeClass('fixed-top');
+    }
+});
+/*SMOOTH SCROLL*/
+  $(function() {
+  $('a[href*="#"]').smoothscroll({duration:  4000,
+      easing: 'easeOutCirc',
+      offset: 0,
+      hash: true,});
+});
+      /* ==========================
+        Stats Counter
+   ========================== */
+
+$(function(){
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+})
+});
+
+
+
+$('.screen-slick').slick({
+        autoplay:true,
+  autoplaySpeed:1500,
+  arrows:false,
+  dots:true,
+        responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        }
+      }
+    ] 
+      });
+
+$('.collapsed').click(function() {
+
+    $(this).find('i').toggleClass('fa-plus fa-minus');
+
+
+});
+$('.collapsed-new').click(function() {
+
+    $(this).find('i').toggleClass('fa-minus fa-plus');
+
+
+});
+</script>
+</body>
+</html>
